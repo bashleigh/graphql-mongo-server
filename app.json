@@ -7,12 +7,20 @@
       "env": {
         "NODE_ENV": "development",
         "SERVER_PORT": 3000,
-        pretty: true,
+        "pretty": true,
+        "MONGO": {
+          "host": "db",
+          "port": 27017
+        }
       },
       "env_production": {
         "NODE_ENV": "production",
         "SERVER_PORT": 3000,
-        pretty: false,
+        "pretty": false,
+        "MONGO": {
+          "host": "db",
+          "port": 27017
+        }
       },
       "instances": 1,
       "exec_mode": "cluster"

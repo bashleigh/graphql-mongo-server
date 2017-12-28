@@ -3,3 +3,4 @@ dist/
 data/
 .idea/
 node_modules/
+.docker/mongo-data

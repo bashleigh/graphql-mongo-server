@@ -9,4 +9,4 @@ app.use('/', graphqlHTTP({
     graphiql: true,
 }));
 
-app.listen(3000, () => console.log('Running server on 3000'));
+app.listen(process.env.SERVER_PORT, () => console.log(`Running server on ${process.env.SERVER_PORT}`));
